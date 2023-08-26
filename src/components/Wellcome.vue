@@ -175,11 +175,6 @@ export default {
 .key:nth-child(8) {
     animation: pressDown8 3.2s infinite;
 }
-
-
-
-
-
 a:hover {
   background-color: rgba(255, 255, 255, 0.1);
   border-color: rgba(255, 255, 255, 0.6);

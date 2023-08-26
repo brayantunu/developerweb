@@ -38,7 +38,8 @@ export default {
 }
 
 </script>
-<style>.lenguajes {
+<style>
+.lenguajes {
     margin: auto;
 
 }</style>

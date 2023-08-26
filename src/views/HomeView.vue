@@ -19,7 +19,6 @@ export default {
     Wellcome
   }
 }
-
 </script>
 <style>
 .estado {

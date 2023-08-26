@@ -8,7 +8,7 @@
 <style>
   .structure {
     position: relative;
-    padding: 40px;
+    /* padding: 40px; */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transform-style: preserve-3d;
     overflow: hidden;
