@@ -21,7 +21,5 @@ export default {
 }
 </script>
 <style>
-.estado {
-  display: flex;
-}
+
 </style>

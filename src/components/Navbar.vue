@@ -26,10 +26,6 @@
 </template>
 
 <style>
-.app {
-  height: 100vh;
-  display: flex;
-}
 
 .navbar-vertical {
   margin: auto;

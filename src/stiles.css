@@ -1,12 +1,6 @@
-.contenido{
-    display: flex;
-}
-body{
-    background-color: #1D1D20;
-}
 
-/* Estilos generales */
 body {
+    background-color: #1D1D20;
     font-size: 16px;
 }
 
@@ -15,7 +9,31 @@ body {
     body {
         font-size: 14px;
     }
+
     /* Agrega más estilos específicos para dispositivos móviles */
+    .app {
+        height: 50vh;
+        display: flex;
+    }
+
+    .contentNav {
+        height: 50vh;
+    }
+    .content {
+        height: 50vh;
+        display: flex;
+        color: wheat;
+    }
+    .perfil{
+margin: 0px 20px 0px 20px;
+text-align: justify;
+    }
+    .learning {
+        margin: 0px 20px 0px 20px;
+        text-align: justify;
+
+    }
+
 }
 
 /* Estilos para tablets y pantallas medianas */
@@ -23,23 +41,41 @@ body {
     body {
         font-size: 16px;
     }
-    .contentNav{
+
+    .estado {
+        display: flex;
+    }
+
+    .contenido {
+        display: flex;
+    }
+
+    .contentNav {
         width: 40vw;
     }
-    .content{
+
+    .content {
         width: 60vw;
         display: flex;
         color: wheat;
     }
-    .perfil{
+
+    .perfil {
         margin: auto 30px auto 0px;
         text-align: justify;
     }
-    .learning{
+
+    .learning {
         margin: auto 30px auto 0px;
         text-align: justify;
 
     }
+
+    .app {
+        height: 100vh;
+        display: flex;
+    }
+
     /* Agrega más estilos específicos para tablets */
 }
 
@@ -48,25 +84,43 @@ body {
     body {
         font-size: 16px;
     }
+
     /* Agrega más estilos específicos para pantallas grandes */
-    .contentNav{
+    .estado {
+        display: flex;
+    }
+
+    .contenido {
+        display: flex;
+    }
+
+    .contentNav {
         width: 30vw;
     }
-    .content{
+
+    .content {
         width: 70vw;
         display: flex;
         color: wheat;
     }
-    
-    .perfil{
+
+    .app {
+        height: 100vh;
+        display: flex;
+    }
+
+
+    .perfil {
         margin: auto 100px auto 0px;
         text-align: justify;
     }
-    .lenguajes{
+
+    .lenguajes {
         margin: auto 100px auto 0px;
         text-align: justify;
     }
-    .learning{
+
+    .learning {
         margin: auto 100px auto 0px;
         text-align: justify;
 
