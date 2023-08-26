@@ -24,19 +24,19 @@ body {
         font-size: 16px;
     }
     .contentNav{
-        width: 50vw;
+        width: 40vw;
     }
     .content{
-        width: 50vw;
+        width: 60vw;
         display: flex;
         color: wheat;
     }
     .perfil{
-        margin: auto 10px auto 0px;
+        margin: auto 30px auto 0px;
         text-align: justify;
     }
     .learning{
-        margin: auto 10px auto 0px;
+        margin: auto 30px auto 0px;
         text-align: justify;
 
     }
