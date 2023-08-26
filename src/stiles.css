@@ -1,0 +1,59 @@
+.contenido{
+    display: flex;
+}
+.contentNav{
+    width: 30vw;
+}
+.content{
+    width: 70vw;
+    display: flex;
+    color: wheat;
+}
+body{
+    background-color: #1D1D20;
+}
+
+/* Estilos generales */
+body {
+    font-size: 16px;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+    /* Agrega más estilos específicos para dispositivos móviles */
+}
+
+/* Estilos para tablets y pantallas medianas */
+@media (min-width: 481px) and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    /* Agrega más estilos específicos para tablets */
+}
+
+/* Estilos para escritorios y pantallas grandes */
+@media (min-width: 769px) {
+    body {
+        font-size: 16px;
+    }
+    /* Agrega más estilos específicos para pantallas grandes */
+
+    .perfil{
+        margin: auto 100px auto 0px;
+        text-align: justify;
+    }
+    .lenguajes{
+        margin: auto 100px auto 0px;
+        text-align: justify;
+    }
+    .learning{
+        margin: auto 100px auto 0px;
+        text-align: justify;
+
+    }
+
+
+}
