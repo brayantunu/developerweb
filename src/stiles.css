@@ -1,13 +1,17 @@
-
 body {
     background-color: #1D1D20;
     font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
 
 /* Estilos para dispositivos móviles */
 @media (max-width: 480px) {
     body {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     /* Agrega más estilos específicos para dispositivos móviles */
@@ -19,19 +23,25 @@ body {
     .contentNav {
         height: 50vh;
     }
+
     .content {
         height: 50vh;
         display: flex;
         color: wheat;
     }
-    .perfil{
-margin: 0px 20px 0px 20px;
-text-align: justify;
+
+    .perfil {
+        margin: 0px 20px 0px 20px;
+        text-align: justify;
     }
+
     .learning {
         margin: 0px 20px 0px 20px;
         text-align: justify;
 
+    }
+    .proyectos{
+        margin: 70px auto;
     }
 
 }
@@ -76,16 +86,18 @@ text-align: justify;
         display: flex;
     }
 
+    .proyectos{
+        margin: auto;
+    }
     /* Agrega más estilos específicos para tablets */
 }
 
 /* Estilos para escritorios y pantallas grandes */
 @media (min-width: 769px) {
     body {
-        font-size: 16px;
+        font-size: 18px;
     }
 
-    /* Agrega más estilos específicos para pantallas grandes */
     .estado {
         display: flex;
     }
@@ -124,5 +136,8 @@ text-align: justify;
         margin: auto 100px auto 0px;
         text-align: justify;
 
+    }
+    .proyectos{
+        margin: auto;
     }
 }
