@@ -7,9 +7,8 @@
             <div class="proyectos">
                 <div class="conten-tusena">
                 <h1>TUSENA</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ad quia nam aperiam recusandae esse obcaecati quas voluptate minima voluptas, iure harum sint corrupti enim sunt nobis delectus. Unde, ab.</p>
+                <p>La funcionalidad del aplicativo es dar a los aprendices un buscador para investigar los PROYECTOS o SEMILLEROS creados por el sena la cual para informarse de mas de los proyectos a nivel nacional</p>
                 <div class="content-desapp">
-                    
                     <img class="tusena" src="../assets/tusena.png" alt="">
                 </div>
                 </div>
@@ -30,7 +29,12 @@ export default{
 }
 </script>
 <style>
-.tusena{
-    width: 50%;
+
+.conten-tusena{
+    margin: auto 10px;
+    text-align: justify;
+}
+.content-desapp{
+display: flex;
 }
 </style>

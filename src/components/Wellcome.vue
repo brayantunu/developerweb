@@ -1,13 +1,22 @@
 <template>
-    <div class="keyboard">
-        <span class="key">W</span>
-        <span class="key">E</span>
-        <span class="key">L</span>
-        <span class="key">C</span>
-        <span class="key">O</span>
-        <span class="key">M</span>
-        <span class="key">E</span>
-        <!-- <span class="key">D</span> -->
+    <div class="content-developer">
+        <div class="contend-wellcom">
+            <div class="keyboard">
+                <span class="key">W</span>
+                <span class="key">E</span>
+                <span class="key">L</span>
+                <span class="key">C</span>
+                <span class="key">O</span>
+                <span class="key">M</span>
+                <span class="key">E</span>
+                <!-- <span class="key">D</span> -->
+            </div>
+        </div>
+        <div class="bra-front">
+        <p class="frontend">
+            I'm Brayan frontend developer
+        </p>
+    </div>
     </div>
 </template>
 <script>
@@ -16,12 +25,19 @@ export default {
 }
 </script>
 <style>
+.content-developer {
+    margin: auto;
+}
+.bra-front{
+    display: flex;
+}
+.contend-wellcom {
+    display: flex;
+}
 
 .keyboard {
     color: #fff;
-    display: flex;
-    margin: auto;
-
+    margin: auto auto auto auto;
 }
 
 .key {
@@ -175,9 +191,11 @@ export default {
 .key:nth-child(8) {
     animation: pressDown8 3.2s infinite;
 }
+
 a:hover {
-  background-color: rgba(255, 255, 255, 0.1);
-  border-color: rgba(255, 255, 255, 0.6);
-  transform: scale(1.05); /* Aumentar ligeramente el tamaño */
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.6);
+    transform: scale(1.05);
+    /* Aumentar ligeramente el tamaño */
 }
 </style>

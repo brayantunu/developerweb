@@ -11,7 +11,7 @@ body {
 /* Estilos para dispositivos móviles */
 @media (max-width: 480px) {
     body {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     /* Agrega más estilos específicos para dispositivos móviles */
@@ -41,9 +41,15 @@ body {
 
     }
     .proyectos{
-        margin: 70px auto;
+        margin: 20px auto;
     }
-
+    .conten-tusena{
+        margin-bottom: 20px;
+    }
+    .tusena{
+        max-width: 100%;
+        height: auto;
+    }
 }
 
 /* Estilos para tablets y pantallas medianas */
@@ -87,6 +93,11 @@ body {
     }
 
     .proyectos{
+        margin: 70px;
+    }
+    .tusena{
+        max-width: 80%;
+        height: auto;
         margin: auto;
     }
     /* Agrega más estilos específicos para tablets */
@@ -95,7 +106,7 @@ body {
 /* Estilos para escritorios y pantallas grandes */
 @media (min-width: 769px) {
     body {
-        font-size: 18px;
+        font-size: 24px;
     }
 
     .estado {
@@ -138,6 +149,14 @@ body {
 
     }
     .proyectos{
+        margin: auto 20px;
+    }
+    .frontend{
+        margin: auto;
+    }
+    .tusena{
+        max-width: 80%;
+        height: auto;
         margin: auto;
     }
 }
