@@ -2,10 +2,16 @@
     <div class="structure">
     <div class="corner top-left"></div>
     <div class="corner bottom-right"></div>
+
+    <!-- <Footer/> -->
+    <Redes/>
     <router-view/>
   </div>
 </template>
 <style>
+*{
+  border: 1px solid red;
+}
   .structure {
     position: relative;
     /* padding: 40px; */
@@ -35,3 +41,16 @@
     transform: rotateZ(-135deg) translateY(50%);
   }
   </style>
+
+<script>
+// import Footer from './components/Footer.vue';
+  import Redes from './components/Redes.vue';
+export default{
+  name:"AppV",
+  
+  components:{
+// Footer
+Redes
+  }
+}
+</script>

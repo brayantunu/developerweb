@@ -22,6 +22,7 @@
         </li>
       </ul>
     </nav>
+    <!-- <Footer/> -->
   </div>
 </template>
 
@@ -66,7 +67,12 @@
 </style>
 
 <script>
+// import Footer from "@/components/Footer.vue";
+
 export default {
-  name: "NabVar"
+  name: "NabVar",
+//   components:{
+//     Footer
+// }
 }
 </script>

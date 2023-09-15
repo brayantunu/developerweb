@@ -1,10 +1,8 @@
 body {
     background-color: #1D1D20;
     font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', 'Roboto', sans-serif;
 }
-
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
 
